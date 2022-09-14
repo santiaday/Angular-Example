@@ -1,0 +1,13 @@
+:host {
+    padding: 20px;
+    display: block;
+}
+
+app-shows-list-item + app-shows-list-item {
+    border-top: 1px solid #cecece;
+}
+
+
+.shows-list-item__content {
+    color: red !important;
+}

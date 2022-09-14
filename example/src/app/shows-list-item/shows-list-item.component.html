@@ -1,0 +1,9 @@
+<div class="shows-list-item">
+  <img [src]="show.imgUrl" />
+  <div class="shows-list-item__content">
+    <strong>{{ show.name }}</strong>
+    <div>{{ show.description }}</div>
+  </div>
+
+  <app-star [value]="show.isFavorite" (select)="favorite.emit($event)"></app-star>
+</div>
